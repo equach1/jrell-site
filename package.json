@@ -1,0 +1,12 @@
+{
+  "name": "texttraileffect-2",
+  "version": "1.0.0",
+  "description": "A text trail effect for a slideshow inspired by the [Abstract is hiring Dribbble shot](https://dribbble.com/shots/5910521-Abstract-is-hiring).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

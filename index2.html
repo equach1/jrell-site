@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="A transition effect that shows a text trail with different styles." />
+	<meta name="keywords" content="text, trail, copy, brutalism, effect, slideshow, animation, javascript" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Kanit:500,900|Syncopate:700" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+	<style>
+		@font-face {
+			font-family: "Easy3D";
+			src: url("css/Easy\ 3D.ttf");
+		}
+	</style>
+</head>
+
+<body class="demo-2 loading">
+	<main>
+		<div class="frame">
+			<div class="frame__title-wrap">
+				<h1 class="frame__title">Jrell Beats</h1>
+			</div>
+			<div class="frame__links">
+				<a class="fa-2x" href="http://twitter.com/jrellamahn"><i class="fa fa-twitter"
+						style="color: aliceblue"></i></a>
+				<a class="fa-2x" href="https://www.instagram.com/jrellamahn/"><i class="fa fa-instagram"
+						style="color: aliceblue"></i></a>
+				<a class="fa-2x" href="https://soundcloud.com/jrellamahn"><i class="fa fa-soundcloud"
+						style="color: aliceblue"></i></a>
+				<a class="fa-2x" href="www.bandcamp.com/jrellamahn"><i class="fa fa-bandcamp"
+						style="color: aliceblue"></i></a>
+				<a class="fa-2x" href="https://music.apple.com/us/artist/jrell-amahn/1517329241"><i class="fa fa-apple"
+						style="color: aliceblue"></i></a>
+			</div>
+			<div class="frame__demos">
+				<a href="index.html" class="frame__demo frame__demo--current" style="font-family: easy_3dregular">ABOUT
+					ME</a>
+				<a href="index2.html" class="frame__demo" style="font-family: easy_3dregular">SHOP</a>
+				<a href="index3.html" class="frame__demo" style="font-family: easy_3dregular">SOUNDKITS</a>
+				<a href="index4.html" class="frame__demo" style="font-family: easy_3dregular">CONTACT</a>
+			</div>
+		</div>
+		<div class="content">
+			<div class="content__slide">
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image: url(img/23.jpeg)">
+						<embed src="img/ghostride.wav" type="audio/wav" loop="true" autostart="true" width="2"
+							height="0" />
+					</div>
+				</div>
+				<audio id="audio" preload="auto">
+					<source src="img/ghostride.wav" type="audio/wav" id="ghost" data-track-number="1">
+					<source src="img/page-9.wav" type="audio/wav" id="page" data-track-number="2">
+					<source src="img/thistimearoundfinal.wav" type="audio/wav" id="thistime" data-track-number="3">
+					Your browser does not support HTML5 audio.
+				</audio>
+				<span id="faces">
+					<img src="img/jSmiley.png" id="smiley">;
+					<img src="img/jSmiley2.png" id="frowny">;
+				</span>
+
+				<div class="content__text-wrap">
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+					<span class="content__text content__text--full">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+					<span class="content__text content__text--full">
+						<span class="content__text-inner" style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+					<audio id="ghostride">
+						<source class="play_pause" src="img/ghostride.wav" type="audio/mp4" />
+					</audio>
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--bottom"
+							style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+					<span class="content__text content__text--full">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--stroke content__text-inner--bottom"
+							style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">Ghostride</span>
+					</span>
+				</div>
+			</div>
+			<div class="content__slide">
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image: url(img/13.jpeg)">
+						<embed src="/Users/brandonkuon/Desktop/Example_Web2/TextTrailEffect 2/index2.html" loop="true"
+							autostart="true" width="2" height="0" />
+					</div>
+				</div>
+				<div class="content__text-wrap">
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">Page-9</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">Page-9</span>
+					</span>
+					<span class="content__text content__text--full">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">Page-9</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">Page-9</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">Page-9</span>
+					</span>
+					<span class="content__text content__text--full">
+						<span class="content__text-inner" style="font-family: easy_3dregular">Page-9</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--bottom"
+							style="font-family: easy_3dregular">Page-9</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">Page-9</span>
+					</span>
+					<span class="content__text content__text--full">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">Page-9</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--stroke content__text-inner--bottom"
+							style="font-family: easy_3dregular">Page-9</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">Page-9</span>
+					</span>
+				</div>
+			</div>
+			<div class="content__slide">
+				<div class="content__img">
+					<div class="content__img-inner" style="background-image: url(img/17.jpeg)">
+						<embed src="img/thistimearoundfinal.wav" loop="true" autostart="true" width="2" height="0" />
+					</div>
+				</div>
+				<div class="content__text-wrap">
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">tta</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">tta</span>
+					</span>
+					<span class="content__text content__text--full">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">tta</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">tta</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">tta</span>
+					</span>
+					<span class="content__text content__text--full">
+						<span class="content__text-inner" style="font-family: easy_3dregular">tta</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--bottom"
+							style="font-family: easy_3dregular">tta</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">tta</span>
+					</span>
+					<span class="content__text content__text--full">
+						<span class="content__text-inner content__text-inner--stroke"
+							style="font-family: easy_3dregular">tta</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner content__text-inner--stroke content__text-inner--bottom"
+							style="font-family: easy_3dregular">tta</span>
+					</span>
+					<span class="content__text">
+						<span class="content__text-inner" style="font-family: easy_3dregular">tta</span>
+					</span>
+				</div>
+			</div>
+			<nav class="content__nav">
+				<input type="image" src="img/jSmiley2.png" id="smile-button"
+					style="align-self: center; border-radius: 50%; height: 40px; width: 40px; padding: 0px; outline: none;">
+				</input>
+				<button class="content__nav-button content__nav-button--prev">
+					⇦
+				</button>
+				<button class="content__nav-button content__nav-button--next">
+					⇨
+				</button>
+			</nav>
+		</div>
+	</main>
+	<footer>
+		<script src="js/audio.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo2.js"></script>
+	</footer>
+</body>
+
+</html>
